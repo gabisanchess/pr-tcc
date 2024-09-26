@@ -1,0 +1,25 @@
+body{
+    margin: auto;
+}
+.menulista{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: rgb(147, 76, 76);
+}
+.menulista >li {
+   padding: 20px; 
+}
+.missao{
+    text-align: justify;
+    max-width: 1000px;
+}
+.visao{
+    text-align: justify;
+    max-width: 1000px;
+}
+.valores{
+    text-align: justify;
+    max-width: 1000px;
+}

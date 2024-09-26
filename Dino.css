@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(255, 255, 255);
+
+}
+.intro > h1{
+    color: rgb(99, 77, 31);
+    height: 50px;
+    width: 100%;
+}
+
+.menulista{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: rgb(147, 76, 76);
+}
+.menulista >li {
+    padding: 20px;
+}
+.tudo{
+    max-width: 1000px;
+    margin: auto;
+    text-align: justify;
+}
+.título1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+img{
+    width: 500px;
+    text-align: center;
+    
+}
