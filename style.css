@@ -1,0 +1,51 @@
+.imagens
+{
+   display: flex; 
+   height: 20rem;
+   gap: 1rem;
+}
+
+.imagens > div
+{
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 200%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+
+.imagens > div:hover
+{
+    flex: 2;
+}
+
+.menu
+{
+    height: 50px;
+    background-color: rgb(255, 211, 116);
+    width: 100%;
+}
+
+.menuLista
+{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
+}
+
+.menuLista > li
+{
+    padding: 20px;
+}
+
+a
+{
+    color: rgb(92, 55, 0);
+}
+
+a:hover
+{
+    color: rgb(255, 219, 154);
+}
