@@ -3,7 +3,6 @@ body{
 
 }
 .intro > h1{
-    color: rgb(99, 77, 31);
     height: 50px;
     width: 100%;
 }
@@ -13,7 +12,7 @@ body{
     display: flex;
     justify-content: center;
     list-style: none;
-    background-color: rgb(147, 76, 76);
+    background-color: rgb(180, 102, 0);
 }
 .menulista >li {
     padding: 20px;
@@ -25,12 +24,45 @@ body{
 }
 .título1{
     text-align: center;
+    margin: 50px;
 }
 h2{
     text-align: center;
+    margin: 50px;
 }
+
+
+
 img{
     width: 500px;
-    text-align: center;
-    
+    text-align: center; 
 }
+.trex{
+    text-align: center;
+}
+.brachi{
+    text-align: center;
+}
+.stego{
+    text-align: center;
+}
+.velo{
+    text-align: center;
+}
+.stau{
+    text-align: center;
+}
+
+
+
+.dinox{
+    color: rgb(180, 102, 0);
+}
+.subb{
+    text-align: center;
+    color: gray;
+}
+
+
+
+

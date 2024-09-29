@@ -6,7 +6,7 @@ body{
     display: flex;
     justify-content: center;
     list-style: none;
-    background-color: rgb(147, 76, 76);
+    background-color: rgb(180, 102, 0);
 }
 .menulista >li {
    padding: 20px; 
@@ -22,4 +22,15 @@ body{
 .valores{
     text-align: justify;
     max-width: 1000px;
+}
+.tudo{
+    max-width: 1000px;
+    margin: auto;
+    text-align: justify;
+}
+.titulo2{
+    text-align: center;
+}
+h3{
+    color: rgb(180, 102, 0);
 }
