@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 16px;
+    background-image: url("logo-fundo-vazio.webp");
+}
+.card {
+    background-color: aliceblue;
+    width: 100px;
+    height: 260px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px bisque;
+}
+.card div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    height: 50%;
+}
+.card h1{
+    font-size: 1.2rem;
+}
+.card h2{
+    font-size: .9rem;
+    color:aliceblue;
+}
+.card button{
+    background-color: blue;
+    height: 30px;
+    border: none;
+    padding: 4px;
+    width: 80%;
+    color: aliceblue;
+    font-size: lrem;
+    font-weight: bold;
+
+}
