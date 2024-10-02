@@ -1,46 +1,240 @@
+.tudo{
+    margin: 10px;
+}
+.especies{
+    align-items: center;
+    text-align: center;
+}
+
 *{
     margin: 0;
     padding: 0;
-}
-body{
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    align-items: center;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    gap: 16px;
-    background-image: url("logo-fundo-vazio.webp");
-}
-.card {
-    background-color: aliceblue;
-    width: 100px;
-    height: 260px;
-    border-radius: 12px;
-    box-shadow: 4px 4px 12px bisque;
-}
-.card div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 4px;
-    height: 50%;
-}
-.card h1{
-    font-size: 1.2rem;
-}
-.card h2{
-    font-size: .9rem;
-    color:aliceblue;
-}
-.card button{
-    background-color: blue;
-    height: 30px;
-    border: none;
-    padding: 4px;
-    width: 80%;
-    color: aliceblue;
-    font-size: lrem;
-    font-weight: bold;
 
 }
+
+.cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: auto;
+    justify-content: center;
+}
+.container{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .card{
+    position: relative;
+    padding: 10px;
+    max-width: 350px;
+    background-color: aliceblue;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+    text-align: center;
+}
+.container .card img{
+    transition: 0.5s;
+
+}
+.container .card h1{
+    font-size: 2rem;
+
+}
+.container .card .content{
+    padding: 20px;
+    text-align: center;
+}
+.container .card .content p{
+    color: brown;
+    transition: 0.5s;
+}
+.container .card .content a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: 0.5s;
+    outline: none;
+    margin-top: 20px;
+}
+.container .card:hover{
+    background-color: chartreuse;
+    color: aliceblue;
+    margin-top: -30px;
+    box-shadow: 2px 20px 25px #dc2e65;
+    border-color:blueviolet;
+}
+.container .card:hover img{
+    filter: invert(1);
+}
+.container .card:hover .content p{
+    color: aliceblue;
+}
+.container .card:hover .content a{
+    color: black;
+    background-color: aliceblue;
+}
+
+.intro > h1{
+    margin: 30px;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    color:#fff;
+}
+.intro{
+    background: url(dinosaur_header.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.títulos{
+    color: rgb(180, 102, 0);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+ }
+
+ a { 
+    color: #fff;
+    text-decoration: none;
+ }
+
+ a:hover{ 
+    opacity: 0.7;
+ }
+
+ .logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+  }
+
+  nav { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(180, 102, 0);
+    height: 8vh;
+
+  }
+
+  .nav-list{ 
+    list-style: none;
+    display: flex;
+  }
+
+  .nav-list li { 
+    letter-spacing: 3px;
+    margin-left: 32px;
+  }
+
+.títulos{
+    align-items: center;
+    text-align: center;
+    border: 5px;
+    margin: 10px;
+}
+
+footer { 
+    width: 100%;
+    min-height: 250px;
+    background-color: rgb(180, 102, 0);
+    display: flex;
+  
+  }
+  
+  footer .boxs{ 
+    width: 320px;
+    min-height: 150px;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  }
+  
+  footer .boxs: nth-child(4) { 
+    width: 400px;
+  }
+  
+  .boxs h2 { 
+    color: #fff;
+    margin-bottom: 20px;
+  
+  }
+  
+  .boxs p  { 
+      color: #fff;
+      text-align: justify;
+  
+  }
+  
+  .boxs ul li { 
+    margin:10px 0px;
+    list-style: none;
+  
+  }
+  
+  .boxs ul li a { 
+      color: #ddd;
+      text-decoration: none;
+  
+  }
+  
+  .boxs ul li a:hover { 
+     color: #fff;
+  }
+  
+  .footer{ 
+    width: 100%;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(206, 126, 22);
+    padding: 0px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .footer h2{ 
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  
+  
+  
+  @media(max-width:950px)
+  { 
+    footer { 
+      flex-direction: column;
+    }
+    footer .boxs { 
+      width: 100%;
+      text-align: center;
+    }
+    footer .boxs:nth-child(4) { 
+      width: 100%;
+    }
+  }
+
